@@ -1,0 +1,13 @@
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    font-size: 17px;
+}
+.footerContainer h5{
+    margin: 2%;
+    color: white;
+    text-decoration: none;
+}

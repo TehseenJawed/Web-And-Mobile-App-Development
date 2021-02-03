@@ -1,0 +1,11 @@
+.mainContainer{
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.mainContainer img{
+    margin: auto;
+}

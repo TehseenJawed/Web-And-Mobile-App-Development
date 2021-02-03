@@ -1,0 +1,92 @@
+.AllContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.searchCountry{
+    width: 20%;
+    box-shadow: 0px 2px 10px rgb(179, 179, 179);
+    /* padding: 1%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0.5%; */
+    border-radius: 20px;
+}
+.searchCountry input{
+    font-size: 17px;
+    border: 0.1px solid rgb(250, 90, 90);
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 3%;
+    width: 80%;
+}
+.searchCountry button{
+    margin-top: 15%;
+    width: 60%;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    background-color: rgb(250, 90, 90);
+    padding: 3%;
+    margin-bottom: 5%;
+    transition: 0.5s;
+}
+.searchCountry button:hover{
+    width: 70%;
+    transition: 0.5s;
+    padding-top: 4%;
+    
+}
+.callCountry{
+    width: 75%;
+    margin: 1%;
+    height: 200px;
+}
+.desc{
+    font-size: 15px;
+    color: rgb(118, 118, 118);
+    margin-top: 5%;
+}
+
+.UpperContainer1{
+    padding: 20px;
+    border-radius: 15px;
+    width: 27%;
+    height: 100px;
+    box-shadow: 0px 2px 5px rgb(179, 179, 179);
+    margin: 0.5%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.UpperContainer1:hover{
+    box-shadow: 0px 2px 20px rgb(179, 179, 179);
+    transition: 0.2s;
+}
+.innerText1{
+    font-size: 120%;
+    color: gray;
+    margin-left: 5%;
+}
+.innerValue1{
+    font-size: 200%;
+    color: rgb(118, 118, 118);
+    margin-left: 35%;
+}
+.primary{
+    background-color: rgb(90, 122, 250);
+}
+.primaryText{
+    color: white !important;
+}
+.danger{
+    background-color: rgb(250, 90, 90);
+}
+.grow{
+    background-color: rgb(248, 248, 93);
+}

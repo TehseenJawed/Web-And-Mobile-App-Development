@@ -1,0 +1,14 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.mainContainer h2{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.mainContainer a{
+    width: 30%;
+}

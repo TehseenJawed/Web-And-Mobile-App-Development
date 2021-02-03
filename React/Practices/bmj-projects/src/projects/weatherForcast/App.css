@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+.WeatherCall{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  /* text-align: center; */
+  padding: 1%;
+  background-color: rgb(44, 42, 48);
+  box-shadow: 0px 2px 5px gray;
+}
+.WeatherData{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 1%;
+  margin-top: 5%;
+}
+.WeatherCall input{
+  width: 40%;
+  padding: 1%;
+  border-radius: 5px;
+  border: none;
+  margin: auto;
+}
+.WeatherCall button{
+  width: 10%;
+  color: white;
+  background-color: rgb(83, 80, 90);
+  padding: 1%;
+  border-radius: 5px;
+  border: none;
+  margin: auto;
+}
+.WeatherItem{
+  box-shadow: 2px 2px 10px rgb(177, 177, 177);
+  width: 45%;
+  border-radius: 5px;
+  text-align: left;
+  padding: 2%;
+}
+.UlStyle{
+  list-style-type: none;
+  list-style: none;
+  display: flex;
+}
